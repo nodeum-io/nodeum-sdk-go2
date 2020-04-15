@@ -1,3 +1,6 @@
+variables:
+  PACKAGE_NAME: nodeumsdk
+
 include:
   - local: .gitlab/ci/generate.gitlab-ci.yml
 

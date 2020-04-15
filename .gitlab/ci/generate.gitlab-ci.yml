@@ -13,8 +13,8 @@ Generate SDK:
       -i /swagger/api.yml
       --git-user-id=$GITHUB_OWNER
       --git-repo-id=$GITHUB_REPOSITORY
-      -p projectName=$PACKAGE_NAME
-      -p projectVersion=$PACKAGE_VERSION
+      -p packageName=$PACKAGE_NAME
+      -p packageVersion=$PACKAGE_VERSION
       -g go
       -o $CI_PROJECT_DIR
   artifacts:
